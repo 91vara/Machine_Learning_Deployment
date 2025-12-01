@@ -64,3 +64,14 @@ def predict():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
+{
+    "Pregnancies": 2,
+    "Glucose": 120,
+    "BloodPressure": 70,
+    "SkinThickness": 20,
+    "Insulin": 85,
+    "BMI": 28.5,
+    "DiabetesPedigreeFunction": 0.35,
+    "Age": 35
+}
