@@ -12,7 +12,7 @@ scaler = joblib.load('scaler.joblib')
 def home():
     return "Welcome to the Diabetes Prediction API! Use the /predict endpoint to get predictions."
 
-@app.route('/predict', methods=['POST'])
+@app.route('/predict', methods=["GET' , POST'])
 def predict():
     try:
         data = request.get_json(force=True)
